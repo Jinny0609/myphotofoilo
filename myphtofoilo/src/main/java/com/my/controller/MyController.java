@@ -10,4 +10,5 @@ public class MyController {
     public String index() {
         return "index.html"; // index.html 파일의 내용을 반환
     }
+    
 }
