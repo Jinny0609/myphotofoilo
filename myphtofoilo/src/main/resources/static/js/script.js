@@ -1,18 +1,27 @@
 var mHtml = $("html");
 var page = 1;
 
-
-mHtml.animate({scrollTop : 0},10);
+mHtml.animate({scrollTop: 0}, 10);
 
 $(window).on("wheel", function(e) {
-    if(mHtml.is(":animated")) return;
-    if(e.originalEvent.deltaY > 0) {
-        if(page == 5) return;
+    if (mHtml.is(":animated")) return;
+    if (e.originalEvent.deltaY > 0) {
+        if (page == 5) return;
         page++;
-    } else if(e.originalEvent.deltaY < 0) {
-        if(page == 1) return;
+    } else if (e.originalEvent.deltaY < 0) {
+        if (page == 1) return;
         page--;
     }
-    var posTop =(page-1) * $(window).height();
-    mHtml.animate({scrollTop : posTop});
-})
+    var posTop = (page - 1) * $(window).height();
+    mHtml.animate({scrollTop: posTop});
+});
+
+// 메뉴 클릭 이동
+$("#menu-items .menu-item").on("click", function() {
+    if (mHtml.is(":animated")) return;
+    var targetPage = $(this).index() + 1;
+    var posTop = (targetPage - 1) * $(window).height();
+    mHtml.animate({scrollTop: posTop});
+    page = targetPage;
+});
+
