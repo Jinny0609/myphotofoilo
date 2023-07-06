@@ -131,3 +131,27 @@ a{
 .menu-item {
   margin-bottom: 10px;
 }
+
+/* section2 */
+.section#section2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        flex-direction: column;
+    }
+
+.stack {
+        font-weight: bold;
+        font-size: 40px;
+    }
+    
+.front_end{
+	margin-top: 5px;
+	margin-bottom:50px;
+}
+.back_end {
+	margin-top: 5px;
+	margin-bottom:20px;
+}
+    
