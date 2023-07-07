@@ -140,6 +140,11 @@ a{
         height: 100vh;
         flex-direction: column;
     }
+.skills{
+	font-weight: bold;
+    font-size: 40px;
+	margin-bottom: 100px;
+}
 
 .stack {
         font-weight: bold;
@@ -154,4 +159,33 @@ a{
 	margin-top: 5px;
 	margin-bottom:20px;
 }
+
+/* section3 */
+.section#section3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        flex-direction: column;
+    }
+.Project {
+        font-weight: bold;
+        font-size: 40px;
+    }
     
+.Project_container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.Project_container > div {
+  margin-left: 10px;
+}
+
+.Project_container img {
+  width: 1800px;
+  height: auto;
+  margin-left: 20px;
+  cursor: pointer;
+}
