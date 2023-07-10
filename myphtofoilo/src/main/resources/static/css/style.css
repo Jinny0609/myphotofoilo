@@ -162,30 +162,34 @@ a{
 
 /* section3 */
 .section#section3 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-        flex-direction: column;
-    }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
 .Project {
-        font-weight: bold;
-        font-size: 40px;
-    }
-    
+    font-weight: bold;
+    font-size: 40px;
+}
+
 .Project_container {
-  display: flex;
-  align-items: center;
-  margin-bottom: 20px;
+    display: flex;
+    align-items: start;
+    margin-bottom: 20px;
+    width: 1200px;
 }
 
 .Project_container > div {
-  margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .Project_container img {
-  width: 1800px;
-  height: auto;
-  margin-left: 20px;
-  cursor: pointer;
+    max-width: 300px;
+    max-height: 150px;
+    margin-left: 20px;
+    cursor: pointer;
 }
