@@ -178,7 +178,7 @@ a{
     display: flex;
     align-items: start;
     margin-bottom: 20px;
-    width: 1200px;
+    width: 1400px;
 }
 
 .Project_container > div {
@@ -187,9 +187,18 @@ a{
     width: 100%;
 }
 
+.Project_container .text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 70%;  /* 이 값을 조정하여 텍스트 영역의 크기를 조절할 수 있습니다 */
+}
+
 .Project_container img {
     max-width: 300px;
     max-height: 150px;
     margin-left: 20px;
+    margin-top: 50px;
     cursor: pointer;
+        
 }
