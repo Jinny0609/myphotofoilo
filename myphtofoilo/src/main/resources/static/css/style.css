@@ -221,7 +221,7 @@ a{
     display: flex;
     align-items: start;
     margin-bottom: 20px;
-    width: 1400px;
+    width: 1450px;
 }
 
 .Education_container > div {
@@ -234,5 +234,9 @@ a{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    width: 70%;  /* 이 값을 조정하여 텍스트 영역의 크기를 조절할 수 있습니다 */
+    width: 100%;  /* 텍스트 영역 조절 */
+}
+
+.Education_container .text-container .course {
+    margin-bottom: 40px;
 }
