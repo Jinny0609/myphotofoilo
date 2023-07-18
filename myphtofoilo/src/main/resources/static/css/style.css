@@ -29,19 +29,19 @@ a{
 }
 
 #section2 {
-    background-color: lightpink;
+    background-color: #FFCCE5;
 }
 
 #section3 {
-    background-color: coral;
+    background-color: #99FFFF;
 }
 
 #section4 {
-    background-color: aqua;
+    background-color: #99FFCC;
 }
 
 #section5{
-	background-color: green;
+	background-color: #FFFF99;
 }
 
 /* section1 안의 글들 감싸는부분 */
